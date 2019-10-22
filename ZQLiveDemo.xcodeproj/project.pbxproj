@@ -29,6 +29,12 @@
 		877A4603235EDD1D00A2B7F7 /* gyAlertView_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 877A4600235EDD1D00A2B7F7 /* gyAlertView_02.png */; };
 		877A4604235EDD1D00A2B7F7 /* gyAlertView_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 877A4601235EDD1D00A2B7F7 /* gyAlertView_01.png */; };
 		877A4605235EDD1D00A2B7F7 /* gyAlertView_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 877A4602235EDD1D00A2B7F7 /* gyAlertView_03.png */; };
+		877A4607235EF5FE00A2B7F7 /* VideoCapture.txt in Resources */ = {isa = PBXBuildFile; fileRef = 877A4606235EF5FE00A2B7F7 /* VideoCapture.txt */; };
+		877A460D235EFAA800A2B7F7 /* AVCaptureSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A460C235EFAA800A2B7F7 /* AVCaptureSessionViewController.m */; };
+		877A4610235EFAB700A2B7F7 /* AudioQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A460F235EFAB700A2B7F7 /* AudioQueueViewController.m */; };
+		877A4613235EFAC300A2B7F7 /* AudioUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A4612235EFAC300A2B7F7 /* AudioUnitViewController.m */; };
+		877A4617235F054A00A2B7F7 /* CaptureSessionVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A4616235F054A00A2B7F7 /* CaptureSessionVideoView.m */; };
+		877A461C235F057F00A2B7F7 /* CaptureSessionAudioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A461B235F057F00A2B7F7 /* CaptureSessionAudioView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +76,17 @@
 		877A4600235EDD1D00A2B7F7 /* gyAlertView_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyAlertView_02.png; sourceTree = "<group>"; };
 		877A4601235EDD1D00A2B7F7 /* gyAlertView_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyAlertView_01.png; sourceTree = "<group>"; };
 		877A4602235EDD1D00A2B7F7 /* gyAlertView_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyAlertView_03.png; sourceTree = "<group>"; };
+		877A4606235EF5FE00A2B7F7 /* VideoCapture.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VideoCapture.txt; sourceTree = "<group>"; };
+		877A460B235EFAA800A2B7F7 /* AVCaptureSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVCaptureSessionViewController.h; sourceTree = "<group>"; };
+		877A460C235EFAA800A2B7F7 /* AVCaptureSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVCaptureSessionViewController.m; sourceTree = "<group>"; };
+		877A460E235EFAB700A2B7F7 /* AudioQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioQueueViewController.h; sourceTree = "<group>"; };
+		877A460F235EFAB700A2B7F7 /* AudioQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioQueueViewController.m; sourceTree = "<group>"; };
+		877A4611235EFAC300A2B7F7 /* AudioUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioUnitViewController.h; sourceTree = "<group>"; };
+		877A4612235EFAC300A2B7F7 /* AudioUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioUnitViewController.m; sourceTree = "<group>"; };
+		877A4615235F054A00A2B7F7 /* CaptureSessionVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureSessionVideoView.h; sourceTree = "<group>"; };
+		877A4616235F054A00A2B7F7 /* CaptureSessionVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionVideoView.m; sourceTree = "<group>"; };
+		877A461A235F057F00A2B7F7 /* CaptureSessionAudioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureSessionAudioView.h; sourceTree = "<group>"; };
+		877A461B235F057F00A2B7F7 /* CaptureSessionAudioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionAudioView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +160,10 @@
 		877A45C4235EABD100A2B7F7 /* VideoCapture */ = {
 			isa = PBXGroup;
 			children = (
+				877A460A235EFA7100A2B7F7 /* AudioUnit */,
+				877A4609235EFA6600A2B7F7 /* AudioQueue */,
+				877A4608235EF9A100A2B7F7 /* AVCaptureSession */,
+				877A4606235EF5FE00A2B7F7 /* VideoCapture.txt */,
 				877A45C5235EABF200A2B7F7 /* VideoCaptureViewController.h */,
 				877A45C6235EABF200A2B7F7 /* VideoCaptureViewController.m */,
 			);
@@ -266,6 +287,61 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		877A4608235EF9A100A2B7F7 /* AVCaptureSession */ = {
+			isa = PBXGroup;
+			children = (
+				877A4614235F050400A2B7F7 /* Views */,
+				877A460B235EFAA800A2B7F7 /* AVCaptureSessionViewController.h */,
+				877A460C235EFAA800A2B7F7 /* AVCaptureSessionViewController.m */,
+			);
+			path = AVCaptureSession;
+			sourceTree = "<group>";
+		};
+		877A4609235EFA6600A2B7F7 /* AudioQueue */ = {
+			isa = PBXGroup;
+			children = (
+				877A460E235EFAB700A2B7F7 /* AudioQueueViewController.h */,
+				877A460F235EFAB700A2B7F7 /* AudioQueueViewController.m */,
+			);
+			path = AudioQueue;
+			sourceTree = "<group>";
+		};
+		877A460A235EFA7100A2B7F7 /* AudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				877A4611235EFAC300A2B7F7 /* AudioUnitViewController.h */,
+				877A4612235EFAC300A2B7F7 /* AudioUnitViewController.m */,
+			);
+			path = AudioUnit;
+			sourceTree = "<group>";
+		};
+		877A4614235F050400A2B7F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				877A4619235F056700A2B7F7 /* CaptureSessionAudio */,
+				877A4618235F055100A2B7F7 /* CaptureSessionVideo */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		877A4618235F055100A2B7F7 /* CaptureSessionVideo */ = {
+			isa = PBXGroup;
+			children = (
+				877A4615235F054A00A2B7F7 /* CaptureSessionVideoView.h */,
+				877A4616235F054A00A2B7F7 /* CaptureSessionVideoView.m */,
+			);
+			path = CaptureSessionVideo;
+			sourceTree = "<group>";
+		};
+		877A4619235F056700A2B7F7 /* CaptureSessionAudio */ = {
+			isa = PBXGroup;
+			children = (
+				877A461A235F057F00A2B7F7 /* CaptureSessionAudioView.h */,
+				877A461B235F057F00A2B7F7 /* CaptureSessionAudioView.m */,
+			);
+			path = CaptureSessionAudio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877A4607235EF5FE00A2B7F7 /* VideoCapture.txt in Resources */,
 				877A45AB235E9BF500A2B7F7 /* LaunchScreen.storyboard in Resources */,
 				877A4603235EDD1D00A2B7F7 /* gyAlertView_02.png in Resources */,
 				877A4605235EDD1D00A2B7F7 /* gyAlertView_03.png in Resources */,
@@ -342,16 +419,21 @@
 				877A45D8235EB01900A2B7F7 /* VideoPullStreamingViewController.m in Sources */,
 				877A45D0235EAF9300A2B7F7 /* VideoCodingViewController.m in Sources */,
 				877A45C3235EA36500A2B7F7 /* Custom1TableViewCell.m in Sources */,
+				877A461C235F057F00A2B7F7 /* CaptureSessionAudioView.m in Sources */,
 				877A45DD235EB04C00A2B7F7 /* VideoPushStreamingViewController.m in Sources */,
 				877A45E5235EB3B300A2B7F7 /* ZQUtil.m in Sources */,
+				877A4613235EFAC300A2B7F7 /* AudioUnitViewController.m in Sources */,
 				877A45A3235E9BF300A2B7F7 /* ViewController.m in Sources */,
 				877A45E1235EB07900A2B7F7 /* VideoPlaybackViewController.m in Sources */,
 				877A45AE235E9BF500A2B7F7 /* main.m in Sources */,
 				877A45C7235EABF200A2B7F7 /* VideoCaptureViewController.m in Sources */,
+				877A4610235EFAB700A2B7F7 /* AudioQueueViewController.m in Sources */,
 				877A45A0235E9BF300A2B7F7 /* AppDelegate.m in Sources */,
+				877A460D235EFAA800A2B7F7 /* AVCaptureSessionViewController.m in Sources */,
 				877A45F3235EDAAB00A2B7F7 /* ZQAlertView.m in Sources */,
 				877A45CC235EAF5900A2B7F7 /* VideoProcessingViewController.m in Sources */,
 				877A45F8235EDBB000A2B7F7 /* UIColor+Hex.m in Sources */,
+				877A4617235F054A00A2B7F7 /* CaptureSessionVideoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

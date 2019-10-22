@@ -37,12 +37,12 @@ static NSString *identiify = @"TBIdentify";
 #pragma mark -- private mehods
 
 - (void)initilizeDatas{
-    [self addCellWithTitle:@"视频采集" ControllerName:@"VideoCaptureViewController"];
-    [self addCellWithTitle:@"视频处理" ControllerName:@"VideoProcessingViewController"];
-    [self addCellWithTitle:@"视频编码" ControllerName:@"VideoCodingViewController"];
-    [self addCellWithTitle:@"视频推流" ControllerName:@"VideoPushStreamingViewController"];
-    [self addCellWithTitle:@"视频分流" ControllerName:@"VideoPullStreamingViewController"];
-    [self addCellWithTitle:@"视频播放" ControllerName:@"VideoPlaybackViewController"];
+    [self addCellWithTitle:@"音视频采集" ControllerName:@"VideoCaptureViewController"];
+    [self addCellWithTitle:@"音视频处理" ControllerName:@"VideoProcessingViewController"];
+    [self addCellWithTitle:@"音视频编码" ControllerName:@"VideoCodingViewController"];
+    [self addCellWithTitle:@"音视频推流" ControllerName:@"VideoPushStreamingViewController"];
+    [self addCellWithTitle:@"音视频分流" ControllerName:@"VideoPullStreamingViewController"];
+    [self addCellWithTitle:@"音视频播放" ControllerName:@"VideoPlaybackViewController"];
     
 }
 

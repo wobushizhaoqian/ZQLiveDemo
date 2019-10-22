@@ -36,7 +36,7 @@
         self.PSize = parentSize;
         [self.contentView addSubview:self.headrImageView];
         [self.contentView addSubview:self.label];
-        self.backgroundColor = [self randomColor];
+        self.backgroundColor = [UIColor randomColor];
     }
     return self;
 }
@@ -46,15 +46,6 @@
     
     self.headrImageView.frame = CGRectMake(10 , (self.PSize.height - ImageHeight)/2, ImageHeight, ImageHeight);
     self.label.frame = CGRectMake(self.PSize.height + 10, (self.PSize.height - ImageHeight)/2, self.PSize.width - self.PSize.height, ImageHeight);
-}
-
-#pragma mark ------------------- private methods -------------------
-- (UIColor *)randomColor{
-    NSInteger r = arc4random() % 256;
-    NSInteger g = arc4random() % 256;
-    NSInteger b = arc4random() % 256;
-    UIColor *color = [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:0.3];
-    return color;
 }
 
 #pragma mark ------------------- lazy loading -------------------

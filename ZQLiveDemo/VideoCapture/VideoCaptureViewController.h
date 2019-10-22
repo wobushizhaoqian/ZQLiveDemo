@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+typedef NS_ENUM(NSUInteger, CaptureSelected) {
+    CaptureSelectedAVCaptureSession = 0,
+    CaptureSelectedAudioQueue,
+    CaptureSelectedAudioUnit,
+};
 
 @interface VideoCaptureViewController : UIViewController
 
