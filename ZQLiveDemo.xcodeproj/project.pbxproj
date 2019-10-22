@@ -13,6 +13,22 @@
 		877A45A8235E9BF500A2B7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877A45A7235E9BF500A2B7F7 /* Assets.xcassets */; };
 		877A45AB235E9BF500A2B7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A45A9235E9BF500A2B7F7 /* LaunchScreen.storyboard */; };
 		877A45AE235E9BF500A2B7F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45AD235E9BF500A2B7F7 /* main.m */; };
+		877A45C3235EA36500A2B7F7 /* Custom1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45C2235EA36500A2B7F7 /* Custom1TableViewCell.m */; };
+		877A45C7235EABF200A2B7F7 /* VideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45C6235EABF200A2B7F7 /* VideoCaptureViewController.m */; };
+		877A45CC235EAF5900A2B7F7 /* VideoProcessingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45CB235EAF5900A2B7F7 /* VideoProcessingViewController.m */; };
+		877A45D0235EAF9300A2B7F7 /* VideoCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45CF235EAF9300A2B7F7 /* VideoCodingViewController.m */; };
+		877A45D8235EB01900A2B7F7 /* VideoPullStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45D7235EB01900A2B7F7 /* VideoPullStreamingViewController.m */; };
+		877A45DD235EB04C00A2B7F7 /* VideoPushStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45DC235EB04C00A2B7F7 /* VideoPushStreamingViewController.m */; };
+		877A45E1235EB07900A2B7F7 /* VideoPlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45E0235EB07900A2B7F7 /* VideoPlaybackViewController.m */; };
+		877A45E5235EB3B300A2B7F7 /* ZQUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45E4235EB3B300A2B7F7 /* ZQUtil.m */; };
+		877A45E8235EB55B00A2B7F7 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877A45E7235EB55B00A2B7F7 /* Photos.framework */; };
+		877A45EA235EB61400A2B7F7 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877A45E9235EB61400A2B7F7 /* AssetsLibrary.framework */; };
+		877A45EC235ED45700A2B7F7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877A45EB235ED45700A2B7F7 /* CoreLocation.framework */; };
+		877A45F3235EDAAB00A2B7F7 /* ZQAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45F2235EDAAB00A2B7F7 /* ZQAlertView.m */; };
+		877A45F8235EDBB000A2B7F7 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 877A45F7235EDBB000A2B7F7 /* UIColor+Hex.m */; };
+		877A4603235EDD1D00A2B7F7 /* gyAlertView_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 877A4600235EDD1D00A2B7F7 /* gyAlertView_02.png */; };
+		877A4604235EDD1D00A2B7F7 /* gyAlertView_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 877A4601235EDD1D00A2B7F7 /* gyAlertView_01.png */; };
+		877A4605235EDD1D00A2B7F7 /* gyAlertView_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 877A4602235EDD1D00A2B7F7 /* gyAlertView_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +42,34 @@
 		877A45AA235E9BF500A2B7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		877A45AC235E9BF500A2B7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877A45AD235E9BF500A2B7F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877A45C1235EA36500A2B7F7 /* Custom1TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Custom1TableViewCell.h; sourceTree = "<group>"; };
+		877A45C2235EA36500A2B7F7 /* Custom1TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom1TableViewCell.m; sourceTree = "<group>"; };
+		877A45C5235EABF200A2B7F7 /* VideoCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCaptureViewController.h; sourceTree = "<group>"; };
+		877A45C6235EABF200A2B7F7 /* VideoCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureViewController.m; sourceTree = "<group>"; };
+		877A45C8235EAC5C00A2B7F7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		877A45CA235EAF5900A2B7F7 /* VideoProcessingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoProcessingViewController.h; sourceTree = "<group>"; };
+		877A45CB235EAF5900A2B7F7 /* VideoProcessingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoProcessingViewController.m; sourceTree = "<group>"; };
+		877A45CE235EAF9300A2B7F7 /* VideoCodingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCodingViewController.h; sourceTree = "<group>"; };
+		877A45CF235EAF9300A2B7F7 /* VideoCodingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCodingViewController.m; sourceTree = "<group>"; };
+		877A45D6235EB01900A2B7F7 /* VideoPullStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPullStreamingViewController.h; sourceTree = "<group>"; };
+		877A45D7235EB01900A2B7F7 /* VideoPullStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPullStreamingViewController.m; sourceTree = "<group>"; };
+		877A45DB235EB04C00A2B7F7 /* VideoPushStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPushStreamingViewController.h; sourceTree = "<group>"; };
+		877A45DC235EB04C00A2B7F7 /* VideoPushStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPushStreamingViewController.m; sourceTree = "<group>"; };
+		877A45DF235EB07900A2B7F7 /* VideoPlaybackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackViewController.h; sourceTree = "<group>"; };
+		877A45E0235EB07900A2B7F7 /* VideoPlaybackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlaybackViewController.m; sourceTree = "<group>"; };
+		877A45E3235EB3B300A2B7F7 /* ZQUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQUtil.h; sourceTree = "<group>"; };
+		877A45E4235EB3B300A2B7F7 /* ZQUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQUtil.m; sourceTree = "<group>"; };
+		877A45E7235EB55B00A2B7F7 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		877A45E9235EB61400A2B7F7 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		877A45EB235ED45700A2B7F7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		877A45EE235ED97700A2B7F7 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		877A45F1235EDAAB00A2B7F7 /* ZQAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAlertView.h; sourceTree = "<group>"; };
+		877A45F2235EDAAB00A2B7F7 /* ZQAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAlertView.m; sourceTree = "<group>"; };
+		877A45F6235EDBB000A2B7F7 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		877A45F7235EDBB000A2B7F7 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		877A4600235EDD1D00A2B7F7 /* gyAlertView_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyAlertView_02.png; sourceTree = "<group>"; };
+		877A4601235EDD1D00A2B7F7 /* gyAlertView_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyAlertView_01.png; sourceTree = "<group>"; };
+		877A4602235EDD1D00A2B7F7 /* gyAlertView_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gyAlertView_03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877A45EC235ED45700A2B7F7 /* CoreLocation.framework in Frameworks */,
+				877A45EA235EB61400A2B7F7 /* AssetsLibrary.framework in Frameworks */,
+				877A45E8235EB55B00A2B7F7 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +91,7 @@
 			children = (
 				877A459D235E9BF300A2B7F7 /* ZQLiveDemo */,
 				877A459C235E9BF300A2B7F7 /* Products */,
+				877A45E6235EB55B00A2B7F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +106,17 @@
 		877A459D235E9BF300A2B7F7 /* ZQLiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				877A45F4235EDB6100A2B7F7 /* Extension */,
+				877A45EF235EDA9200A2B7F7 /* CustomView */,
+				877A45ED235ED95F00A2B7F7 /* Config */,
+				877A45E2235EB39900A2B7F7 /* ZQUtil */,
+				877A45DE235EB06600A2B7F7 /* VideoPlayback */,
+				877A45D9235EB02D00A2B7F7 /* VideoPushStreaming */,
+				877A45D5235EAFE700A2B7F7 /* VideoPullStreaming */,
+				877A45CD235EAF7200A2B7F7 /* VideoCoding */,
+				877A45C9235EAF3500A2B7F7 /* VideoProcessing */,
+				877A45C4235EABD100A2B7F7 /* VideoCapture */,
+				877A45C0235EA33B00A2B7F7 /* TableViewCell */,
 				877A459E235E9BF300A2B7F7 /* AppDelegate.h */,
 				877A459F235E9BF300A2B7F7 /* AppDelegate.m */,
 				877A45A1235E9BF300A2B7F7 /* ViewController.h */,
@@ -67,8 +126,144 @@
 				877A45A9235E9BF500A2B7F7 /* LaunchScreen.storyboard */,
 				877A45AC235E9BF500A2B7F7 /* Info.plist */,
 				877A45AD235E9BF500A2B7F7 /* main.m */,
+				877A45C8235EAC5C00A2B7F7 /* PrefixHeader.pch */,
 			);
 			path = ZQLiveDemo;
+			sourceTree = "<group>";
+		};
+		877A45C0235EA33B00A2B7F7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				877A45C1235EA36500A2B7F7 /* Custom1TableViewCell.h */,
+				877A45C2235EA36500A2B7F7 /* Custom1TableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		877A45C4235EABD100A2B7F7 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				877A45C5235EABF200A2B7F7 /* VideoCaptureViewController.h */,
+				877A45C6235EABF200A2B7F7 /* VideoCaptureViewController.m */,
+			);
+			path = VideoCapture;
+			sourceTree = "<group>";
+		};
+		877A45C9235EAF3500A2B7F7 /* VideoProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				877A45CA235EAF5900A2B7F7 /* VideoProcessingViewController.h */,
+				877A45CB235EAF5900A2B7F7 /* VideoProcessingViewController.m */,
+			);
+			path = VideoProcessing;
+			sourceTree = "<group>";
+		};
+		877A45CD235EAF7200A2B7F7 /* VideoCoding */ = {
+			isa = PBXGroup;
+			children = (
+				877A45CE235EAF9300A2B7F7 /* VideoCodingViewController.h */,
+				877A45CF235EAF9300A2B7F7 /* VideoCodingViewController.m */,
+			);
+			path = VideoCoding;
+			sourceTree = "<group>";
+		};
+		877A45D5235EAFE700A2B7F7 /* VideoPullStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				877A45D6235EB01900A2B7F7 /* VideoPullStreamingViewController.h */,
+				877A45D7235EB01900A2B7F7 /* VideoPullStreamingViewController.m */,
+			);
+			path = VideoPullStreaming;
+			sourceTree = "<group>";
+		};
+		877A45D9235EB02D00A2B7F7 /* VideoPushStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				877A45DB235EB04C00A2B7F7 /* VideoPushStreamingViewController.h */,
+				877A45DC235EB04C00A2B7F7 /* VideoPushStreamingViewController.m */,
+			);
+			path = VideoPushStreaming;
+			sourceTree = "<group>";
+		};
+		877A45DE235EB06600A2B7F7 /* VideoPlayback */ = {
+			isa = PBXGroup;
+			children = (
+				877A45DF235EB07900A2B7F7 /* VideoPlaybackViewController.h */,
+				877A45E0235EB07900A2B7F7 /* VideoPlaybackViewController.m */,
+			);
+			path = VideoPlayback;
+			sourceTree = "<group>";
+		};
+		877A45E2235EB39900A2B7F7 /* ZQUtil */ = {
+			isa = PBXGroup;
+			children = (
+				877A45E3235EB3B300A2B7F7 /* ZQUtil.h */,
+				877A45E4235EB3B300A2B7F7 /* ZQUtil.m */,
+			);
+			path = ZQUtil;
+			sourceTree = "<group>";
+		};
+		877A45E6235EB55B00A2B7F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877A45EB235ED45700A2B7F7 /* CoreLocation.framework */,
+				877A45E9235EB61400A2B7F7 /* AssetsLibrary.framework */,
+				877A45E7235EB55B00A2B7F7 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877A45ED235ED95F00A2B7F7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				877A45EE235ED97700A2B7F7 /* Config.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		877A45EF235EDA9200A2B7F7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				877A45F0235EDAAB00A2B7F7 /* ZQAlertView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		877A45F0235EDAAB00A2B7F7 /* ZQAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				877A45FF235EDC9C00A2B7F7 /* Images */,
+				877A45F1235EDAAB00A2B7F7 /* ZQAlertView.h */,
+				877A45F2235EDAAB00A2B7F7 /* ZQAlertView.m */,
+			);
+			path = ZQAlertView;
+			sourceTree = "<group>";
+		};
+		877A45F4235EDB6100A2B7F7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				877A45F5235EDBA100A2B7F7 /* UIColor */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		877A45F5235EDBA100A2B7F7 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				877A45F6235EDBB000A2B7F7 /* UIColor+Hex.h */,
+				877A45F7235EDBB000A2B7F7 /* UIColor+Hex.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		877A45FF235EDC9C00A2B7F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				877A4601235EDD1D00A2B7F7 /* gyAlertView_01.png */,
+				877A4600235EDD1D00A2B7F7 /* gyAlertView_02.png */,
+				877A4602235EDD1D00A2B7F7 /* gyAlertView_03.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				877A45AB235E9BF500A2B7F7 /* LaunchScreen.storyboard in Resources */,
+				877A4603235EDD1D00A2B7F7 /* gyAlertView_02.png in Resources */,
+				877A4605235EDD1D00A2B7F7 /* gyAlertView_03.png in Resources */,
+				877A4604235EDD1D00A2B7F7 /* gyAlertView_01.png in Resources */,
 				877A45A8235E9BF500A2B7F7 /* Assets.xcassets in Resources */,
 				877A45A6235E9BF400A2B7F7 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +339,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				877A45D8235EB01900A2B7F7 /* VideoPullStreamingViewController.m in Sources */,
+				877A45D0235EAF9300A2B7F7 /* VideoCodingViewController.m in Sources */,
+				877A45C3235EA36500A2B7F7 /* Custom1TableViewCell.m in Sources */,
+				877A45DD235EB04C00A2B7F7 /* VideoPushStreamingViewController.m in Sources */,
+				877A45E5235EB3B300A2B7F7 /* ZQUtil.m in Sources */,
 				877A45A3235E9BF300A2B7F7 /* ViewController.m in Sources */,
+				877A45E1235EB07900A2B7F7 /* VideoPlaybackViewController.m in Sources */,
 				877A45AE235E9BF500A2B7F7 /* main.m in Sources */,
+				877A45C7235EABF200A2B7F7 /* VideoCaptureViewController.m in Sources */,
 				877A45A0235E9BF300A2B7F7 /* AppDelegate.m in Sources */,
+				877A45F3235EDAAB00A2B7F7 /* ZQAlertView.m in Sources */,
+				877A45CC235EAF5900A2B7F7 /* VideoProcessingViewController.m in Sources */,
+				877A45F8235EDBB000A2B7F7 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +495,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7X8JL97Z3E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZQLiveDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZQLiveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +515,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7X8JL97Z3E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZQLiveDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZQLiveDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
