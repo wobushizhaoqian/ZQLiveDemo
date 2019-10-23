@@ -12,6 +12,7 @@
 #import "Views/CaptureSessionAudio/CaptureSessionAudioView.h"
 
 #define SegmentControlWidth 300
+#define ScrollViewHeight self.view.bounds.size.height-getRectNavAndStatusHight
 
 @interface AVCaptureSessionViewController()<UIScrollViewDelegate>;
 
@@ -32,15 +33,19 @@
     self.dataSource = @[@"视频采集",@"音频采集"];
     [self.view addSubview:self.scrollView];
     [self.view addSubview:self.segmentControl];
+    [self.scrollView addSubview:self.captureSessionVideoView];
+    [self.scrollView addSubview:self.captureSessionAudioView];
+    
 }
 
 #pragma mark -- system methods
 - (void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
     self.segmentControl.frame = CGRectMake((self.view.bounds.size.width - SegmentControlWidth)/2, getRectNavAndStatusHight + 5, SegmentControlWidth, 40);
-    _scrollView.frame = self.view.bounds;
+    self.scrollView.frame = CGRectMake(0, getRectNavAndStatusHight, self.view.bounds.size.width, self.view.bounds.size.height);
     
-    // todo 添加视频采集View和音频采集View的frame
+    self.captureSessionVideoView.frame = CGRectMake(0, 0, self.scrollView.bounds.size.width, ScrollViewHeight);
+    self.captureSessionAudioView.frame = CGRectMake(self.scrollView.bounds.size.width, 0, self.scrollView.bounds.size.width, ScrollViewHeight);
 }
 
 #pragma mark -- evevts
@@ -52,7 +57,7 @@
 
 #pragma mark -- scrollView delegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    CGPoint point = scrollView.contentOffset;
+    CGPoint point = CGPointMake(scrollView.contentOffset.x, getRectNavAndStatusHight);
     self.segmentControl.selectedSegmentIndex = point.x / self.view.bounds.size.width;
 }
 
@@ -73,12 +78,15 @@
         _scrollView.contentSize = CGSizeMake(self.view.bounds.size.width * self.dataSource.count, self.view.bounds.size.height);
         _scrollView.pagingEnabled = YES;
         _scrollView.delegate = self;
+        _scrollView.showsVerticalScrollIndicator = NO;
+        _scrollView.showsHorizontalScrollIndicator = NO;
     }
     return _scrollView;
 }
 - (CaptureSessionVideoView *)captureSessionVideoView{
     if (!_captureSessionVideoView) {
         _captureSessionVideoView = [CaptureSessionVideoView new];
+        _captureSessionVideoView.backgroundColor = [UIColor grayColor];
     }
     return _captureSessionVideoView;
 }
@@ -86,6 +94,7 @@
 - (CaptureSessionAudioView *)captureSessionAudioView{
     if (!_captureSessionAudioView) {
         _captureSessionAudioView = [CaptureSessionAudioView new];
+        _captureSessionAudioView.backgroundColor = [UIColor whiteColor];
     }
     return _captureSessionAudioView;
 }

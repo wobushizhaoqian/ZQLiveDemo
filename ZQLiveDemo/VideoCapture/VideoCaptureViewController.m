@@ -31,15 +31,6 @@ static NSString *identify = @"TBIdentify1";
     [self.view addSubview:self.tableView];
     // Do any additional setup after loading the view.
 }
-
-- (void)viewWillAppear:(BOOL)animated{
-    // 检查相机权限
-    if (![ZQUtil isCanUsePhotos]) {
-        [ZQUtil showAlertWithMessage:@"请打开您的相机权限"];
-    }
-    
-    //todo 需要检查麦克风权限
-}
 #pragma mark -- delegate/dataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.dataSource.count;

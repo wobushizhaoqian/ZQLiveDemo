@@ -32,6 +32,17 @@
 }
 
 
++ (BOOL)isCanUseAudio{
+    AVAuthorizationStatus audioAuthStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeAudio];
+    if (audioAuthStatus == PHAuthorizationStatusRestricted ||
+        audioAuthStatus == PHAuthorizationStatusDenied) {
+        return NO;
+    }
+    return YES;
+}
+
+
+
 + (void)showAlertWithMessage:(NSString *)message{
     ZQAlertView *alertView =[[ZQAlertView alloc]initWithMessage:message title:AlertTitle buttonIndex:^(NSInteger index) {
         

@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 判断相机权限
 + (BOOL)isCanUsePhotos;
 
+// 判断麦克风权限
++ (BOOL)isCanUseAudio;
+
 // 弹框
 + (void)showAlertWithMessage:(NSString *)message;
 
