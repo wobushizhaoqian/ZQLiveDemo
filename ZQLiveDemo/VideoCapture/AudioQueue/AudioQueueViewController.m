@@ -117,7 +117,6 @@
         else{
             packets = frames;    // worst-case scenario: 1 frame in a packet
         }
-        
         if (packets == 0) {       // sanity check{
             packets = 1;
         }
