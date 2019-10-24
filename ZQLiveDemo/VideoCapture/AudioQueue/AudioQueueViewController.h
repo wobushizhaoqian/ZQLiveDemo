@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AudioQueueViewController : UIViewController
 
++ (instancetype)sharedManager;
+
 @end
 
 NS_ASSUME_NONNULL_END
